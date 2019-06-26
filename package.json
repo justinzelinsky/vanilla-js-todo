@@ -1,0 +1,22 @@
+{
+  "name": "todo-vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "minify src -d dist",
+    "start": "serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^11.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-minify": "^0.5.0",
+    "nodemon": "^1.19.1"
+  }
+}
